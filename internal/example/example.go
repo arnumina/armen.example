@@ -52,7 +52,7 @@ func New(version, builtAt string, resources resources.Container) *Example {
 
 // Build AFAIRE.
 func (e *Example) Build() error {
-	return e.mh.Subscribe(e.cr.Bus())
+	return e.mh.Subscribe(e.cr)
 }
 
 // Close AFAIRE.

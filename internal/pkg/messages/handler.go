@@ -13,6 +13,7 @@ package messages
 
 import (
 	"github.com/arnumina/armen.core/pkg/message"
+	"github.com/arnumina/failure"
 	"github.com/arnumina/logger"
 
 	"github.com/arnumina/armen.example/internal/pkg/container"
@@ -56,11 +57,15 @@ func (h *Handler) msgHandler(msg *message.Message) {
 }
 
 // Subscribe AFAIRE.
-func (h *Handler) Subscribe(bus container.Bus) error {
-	return bus.Subscribe(
+func (h *Handler) Subscribe(ctn container.Container) error {
+	if err := ctn.Bus().Subscribe(
 		h.msgHandler,
 		"create[.]job[.]example[.].+",
-	)
+	); err != nil {
+		return failure.New(err).Msg("messages") ////////////////////////////////////////////////////////////////////////
+	}
+
+	return nil
 }
 
 /*
