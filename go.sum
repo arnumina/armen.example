@@ -1,5 +1,5 @@
-github.com/arnumina/armen.core v0.0.0-20200805200520-b2fe1ef12dad h1:2HneQa60YMomBiaKPQpQdZvidi0pLx09KZD41fkevBo=
-github.com/arnumina/armen.core v0.0.0-20200805200520-b2fe1ef12dad/go.mod h1:a1580ZyYcZdrATzNInbuonTXtUX2LwVNTWu7VTxm1W4=
+github.com/arnumina/armen.core v0.0.0-20200807105409-dbcd04f807d5 h1:5yCJUcieWBh7WY9VbqNbkgUrY+mqwI+3CDzn2WVOgaY=
+github.com/arnumina/armen.core v0.0.0-20200807105409-dbcd04f807d5/go.mod h1:a1580ZyYcZdrATzNInbuonTXtUX2LwVNTWu7VTxm1W4=
 github.com/arnumina/failure v0.0.0-20200712145805-92d1fe949ac6 h1:mG368Thv5t6zONfNUmzJOI6jMXQFulcXuL3thG4AoRM=
 github.com/arnumina/failure v0.0.0-20200712145805-92d1fe949ac6/go.mod h1:lsRyz6YJxNpgzBe7dEkI+Y+9VR43v7vVrZwpfqCtLtA=
 github.com/arnumina/logfmt v0.0.0-20200712130836-867c8dd4b690 h1:6G9aYff0ejsfgbdHrRiPUBQV101kp7v7OKIvTmAqvGI=
